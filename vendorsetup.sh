@@ -16,7 +16,7 @@ git clone https://github.com/ProjectElixir-Devices/device_xiaomi_fog-kernel --de
 # Hardware stuff
 rm -rf hardware/xiaomi hardware/qcom-caf/bootctrl hardware/lineage/compat
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
-git clone https://github.com/ProjectElixir-Devices/hardware_qcom-caf_bootctrl -b Tiramisu hardware/qcom-caf/bootctrl
+git clone https://github.com/LineageOS/android_hardware_qcom_bootctrl -b lineage-20.0-caf hardware/qcom-caf/bootctrl
 git clone https://github.com/Eagle-Projekt/hardware_lineage_compat.git hardware/lineage/compat
 
 echo 'done.'
